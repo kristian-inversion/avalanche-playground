@@ -1,0 +1,13 @@
+[profile.default]
+src = "../contracts"
+test = "test"
+out = "out"
+libs = ["lib"]
+solc-version = "0.8.19"
+
+[profile.local]
+rpc_url = "http://localhost:9650/ext/bc/2gR2aJzdDi8rgcpXy9Pg7tF7h2FskEvMqYwqy14AeAYDb4nSpQ/rpc"
+
+[profile.fuji-subnet]
+rpc_url = "https://api.avax-test.network/ext/bc/2G9zV1ZH1sQ2ahViEnRRAkDTzqfebYaQjffY9tUqhu13G8EMZM/rpc"
+chain_id = 14337
